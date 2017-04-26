@@ -4,7 +4,7 @@
   "description": "A base class that serves to make an otherwise asynchronous constructor into a seemingly synchronous one",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha --recursive tests"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/eenewbsauce/sync-async-ctor/issues"
   },
-  "homepage": "https://github.com/eenewbsauce/sync-async-ctor#readme"
+  "homepage": "https://github.com/eenewbsauce/sync-async-ctor#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "sinon": "^2.1.0"
+  }
 }
